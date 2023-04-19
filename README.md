@@ -3,6 +3,8 @@
 ## Abstract
 This Sublime Text plugin allows you to automatically edit, modify, and alter selected text and code using the OpenAI API. When text is selected you can select the AI assistant to summarize, rewrite or expand the selected text. For code, you can ask it to fix or complete and analyze the code. See the screenshot with the context window below:
 <details><summary>Click to see screens</summary>
+
+---
 ![](static/screen_shot1.png)
 </details>
 
