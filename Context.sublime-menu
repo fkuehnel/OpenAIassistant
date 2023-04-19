@@ -1,0 +1,22 @@
+[
+    {
+        "caption": "AI Assistant",
+        "children": [
+            {"command": "ai_text_assist", "caption": "Summarize Text", "args":{"task": "write", "action": "summarize"}},
+            {"command": "ai_text_assist", "caption": "Expand Text", "args":{"task": "write", "action": "expand"}},
+            {"command": "ai_text_assist", "caption": "Complete Section", "args":{"task": "write", "action": "complete"}},
+            {"command": "ai_text_assist", "caption": "Correct Section", "args":{"task": "text_edit", "action": "correct"}},
+            {"caption": "Rewrite Section",
+                "children": [
+                    {"command": "ai_text_assist", "caption": "more creative", "args":{"task": "write", "action": "rewrite_creative"}},
+                    {"command": "ai_text_assist", "caption": "more balanced", "args":{"task": "write", "action": "rewrite_balanced"}},
+                    {"command": "ai_text_assist", "caption": "more precise", "args":{"task": "write", "action": "rewrite_precise"}},
+                ]
+            },
+            {"caption": "-", "id": "separator"},
+            {"command": "ai_code_assist", "caption": "Complete Code", "args":{"task": "code", "action": "complete"}},
+            {"command": "ai_code_assist", "caption": "Correct Code", "args":{"task": "code", "action": "correct"}},
+            {"command": "ai_code_assist", "caption": "Analyze Code", "args":{"task": "code", "action": "analyze"}},
+        ]
+    }
+]

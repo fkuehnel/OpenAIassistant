@@ -1,0 +1,25 @@
+[
+    {
+        "id": "preferences",
+        "children": [
+            {
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "AI assistant",
+                        "children": [
+                            {
+                                "caption": "OpenAI Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/OpenAIassist/OpenAIassist.sublime-settings",
+                                    "default": "// Settings in here override those in \"OpenAIassist.sublime-settings\"\n{\n\t\"token\": \"$0\"\n}\n"
+                                }
+                            },
+                        ]
+                    },
+                ]
+            }
+        ]
+    }
+]
